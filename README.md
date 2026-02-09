@@ -2,7 +2,7 @@
 
 **by @JohnTheFarm3r**
 
-Mod Tile Manager lets you import camera mods and control them from Quick Settings tiles, enabling or disabling mods on the fly — without rebooting.
+Mod Tile Manager lets you import camera mods and control them from Quick Settings tiles, enabling or disabling mods on the fly -without rebooting.
 
 It extracts mod packages, mounts and applies files live using root privileges, and gives each mod its own Quick Tile for instant toggling.
 
@@ -29,11 +29,11 @@ Root managers apply these modules systemlessly on top of stock OS files so the o
 
 Unlike flashing mods in Kitsune, Magisk, KSU or other Root Managers:
 
-- **No reboot required** — The app mounts and applies mod files live using root, so you can switch mods on or off without restarting your device.
-- **Quick toggles** — Each imported mod can get its own Quick Tile for instant activation or deactivation.
-- **Multiple mods** — The app supports up to 50 mods, meaning up to 50 customizable tiles.
-- **Custom vendor properties** — You can set vendor properties such as sensor mode to alter sensor behavior.
-- **Temporary and flexible** — You do not need to keep mods permanently active in your root manager.
+- **No reboot required** -The app mounts and applies mod files live using root, so you can switch mods on or off without restarting your device.
+- **Quick toggles** -Each imported mod can get its own Quick Tile for instant activation or deactivation.
+- **Multiple mods** -The app supports up to 50 mods, meaning up to 50 customizable tiles.
+- **Custom vendor properties** -You can set vendor properties such as sensor mode to alter sensor behavior.
+- **Temporary and flexible** -You do not need to keep mods permanently active in your root manager.
 
 Most root managers (Magisk, KSU, KSUN, Magisk Alpha) cannot mount files to the `/ODM` partition. On many modern devices, key camera-related files are stored there, which means flashing camera mods often fails or works only partially.
 
@@ -99,7 +99,7 @@ If your mod comes as a Magisk or KSU module:
 5. Tap **Add tile to QS**
 6. Confirm the system dialog to add the tile to Quick Settings
 
-Your new tile appears in the QS panel — toggle it to activate or deactivate the mod instantly.
+Your new tile appears in the QS panel -toggle it to activate or deactivate the mod instantly.
 
 ### Using Sensor Mode Only
 
@@ -121,11 +121,11 @@ Custom Mods extend the app beyond camera modifications to support other system t
 2. Select your ZIP file
 
 Key differences from Camera Mods:
-- **No exclusivity** — Multiple custom mods can be active simultaneously
+- **No exclusivity** -Multiple custom mods can be active simultaneously
 - Custom mods can coexist with an active camera mod
-- **No camera service restart** — You define which service to restart
-- **Custom Command** — A shell command executed on activation and deactivation
-- **Auto-activate on boot** — Optionally activate after device boot
+- **No camera service restart** -You define which service to restart
+- **Custom Command** -A shell command executed on activation and deactivation
+- **Auto-activate on boot** -Optionally activate after device boot
 
 > Once imported as a Custom Mod, a tile cannot be changed to a Camera Mod (and vice versa). Delete and re-import if you need to change the type.
 
@@ -148,7 +148,7 @@ These logs can reveal app errors, mod issues, or incorrect configurations. They 
 
 - **Minimum:** Android 14+
 - **Root:** Required (Magisk, KSU, KSUN, Kitsune, or any root solution)
-- Not limited to specific models — tested primarily on Xiaomi Ultra devices but should work on any rooted Android 14+ device
+- Not limited to specific models -tested primarily on Xiaomi Ultra devices but should work on any rooted Android 14+ device
 
 Compatibility depends on how your OS implements partitions and permissions. If you encounter issues, check the logs for details.
 
