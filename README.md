@@ -170,8 +170,6 @@ A very special thanks to **George** for creating the incredible camera mods that
 
 ### Support George's camera mod work
 
-**BTC:** `3PuPgw2kiouSWjCwGdbpQ77UYh55wNieJ6`
-
 **PayPal:** [paypal.me/GeorgeKiariz](https://paypal.me/GeorgeKiariz)
 
 ---
