@@ -43,6 +43,14 @@
       ],
       "sensor_modes": [
         {
+          "id": "isz_48mm_xuanyuan",
+          "name": "ISZ (In Sensor Zoom) - 48mm",
+          "short_name": "ISZ 48mm",
+          "description": "In sensor zoom 48mm for the 24mm lens (1x).",
+          "sensor_mode_value": 3,
+          "lens": "24mm (1x)"
+        },
+        {
           "id": "isz_190mm_xuanyuan",
           "name": "ISZ (In Sensor Zoom) - 190mm",
           "short_name": "ISZ HP9 190mm",
