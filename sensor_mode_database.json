@@ -32,7 +32,7 @@
           "short_name": "ISZ 48mm",
           "description": "In sensor zoom 48mm for the 1x wide lens.",
           "sensor_mode_value": 3,
-          "lens": "1x wide lens"
+          "lens": "24mm"
         },
         {
           "id": "hfr_120fps_nezha",
