@@ -35,6 +35,30 @@
           "lens": "24mm, 78mm"
         }
       ]
+    },
+    {
+      "codename": "xuanyuan",
+      "marketing_names": [
+        "Xiaomi 15 Ultra"
+      ],
+      "sensor_modes": [
+        {
+          "id": "isz_190mm_xuanyuan",
+          "name": "ISZ (In Sensor Zoom) - 190mm",
+          "short_name": "ISZ HP9 190mm",
+          "description": "In sensor zoom 190mm for the 4.3x telephoto lens.",
+          "sensor_mode_value": 38,
+          "lens": "4.3x telephoto"
+        },
+        {
+          "id": "isz_380mm_xuanyuan",
+          "name": "ISZ (In Sensor Zoom) - 380mm",
+          "short_name": "ISZ HP9 380mm",
+          "description": "In sensor zoom 380mm for the 4.3x telephoto lens.",
+          "sensor_mode_value": 39,
+          "lens": "4.3x telephoto"
+        }
+      ]
     }
   ]
 }
