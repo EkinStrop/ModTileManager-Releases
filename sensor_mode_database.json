@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-04-13",
+  "devices": [
+    {
+      "codename": "nezha",
+      "marketing_names": [
+        "Xiaomi 17 Ultra",
+        "Xiaomi 17 Ultra by Leica",
+        "Xiaomi 17 Ultra Leitzphone"
+      ],
+      "sensor_modes": [
+        {
+          "id": "dcg_24mm_nezha",
+          "name": "DCG (Dual Conversion Gain) - 24mm",
+          "short_name": "DCG - 24mm",
+          "description": "Enables Dual Conversion Gain on the 24mm main lens for improved dynamic range in low light.",
+          "sensor_mode_value": 4,
+          "lens": "24mm"
+        },
+        {
+          "id": "dcg_78mm_nezha",
+          "name": "DCG (Dual Conversion Gain) - 78mm",
+          "short_name": "DCG - 78mm",
+          "description": "Enables Dual Conversion Gain on the 78mm telephoto lens for improved dynamic range in low light.",
+          "sensor_mode_value": 6,
+          "lens": "78mm"
+        },
+        {
+          "id": "hfr_120fps_nezha",
+          "name": "120FPS Mode - 24mm & 78mm",
+          "short_name": "120FPS",
+          "description": "Enables 120 frames per second recording on both the 24mm main lens and 78mm telephoto lens.",
+          "sensor_mode_value": 32,
+          "lens": "24mm, 78mm"
+        }
+      ]
+    }
+  ]
+}
