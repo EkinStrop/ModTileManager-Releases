@@ -27,6 +27,14 @@
           "lens": "78mm"
         },
         {
+          "id": "isz_48mm_nezha",
+          "name": "ISZ (In Sensor Zoom) - 48mm",
+          "short_name": "ISZ 48mm",
+          "description": "In sensor zoom 48mm for the 1x wide lens.",
+          "sensor_mode_value": 3,
+          "lens": "1x wide lens"
+        },
+        {
           "id": "hfr_120fps_nezha",
           "name": "120FPS Mode - 24mm & 78mm",
           "short_name": "120FPS",
