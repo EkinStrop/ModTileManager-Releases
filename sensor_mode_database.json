@@ -56,7 +56,7 @@
           "short_name": "ISZ 48mm",
           "description": "In sensor zoom 48mm for the 1x wide lens.",
           "sensor_mode_value": 3,
-          "lens": "1x wide lens"
+          "lens": "24mm"
         },
         {
           "id": "isz_190mm_xuanyuan",
@@ -73,6 +73,22 @@
           "description": "In sensor zoom 380mm for the 4.3x telephoto lens.",
           "sensor_mode_value": 39,
           "lens": "4.3x telephoto"
+        }
+      ]
+    },
+    {
+      "codename": "eqe",
+      "marketing_names": [
+        "Motorola Edge 50 Pro"
+      ],
+      "sensor_modes": [
+        {
+          "id": "isz_52mm_eqe",
+          "name": "ISZ (In Sensor Zoom) - 52mm",
+          "short_name": "ISZ 52mm",
+          "description": "In sensor zoom 52mm for the 1x wide lens.",
+          "sensor_mode_value": 6,
+          "lens": "26mm"
         }
       ]
     }
