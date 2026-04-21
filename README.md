@@ -176,4 +176,4 @@ A very special thanks to **George** for creating the incredible camera mods that
 
 ## Community
 
-Join the Telegram community for mods, support, and discussion: [t.me/XiaomiUltraCam]([https://t.me/gcam15u](https://t.me/XiaomiUltraCam))
+Join the Telegram community for mods, support, and discussion: [t.me/XiaomiUltraCam]([https://t.me/gcam15u](https://t.me/XiaomiUltraCam])
