@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-04-13",
+  "last_updated": "2026-04-21",
   "devices": [
     {
       "codename": "nezha",
@@ -89,6 +89,70 @@
           "description": "In sensor zoom 52mm for the 1x wide lens.",
           "sensor_mode_value": 6,
           "lens": "26mm"
+        }
+      ]
+    },
+    {
+      "codename": "waffle",
+      "marketing_names": [
+        "OnePlus 12"
+      ],
+      "sensor_modes": [
+        {
+          "id": "isz_48mm_waffle",
+          "name": "ISZ (In Sensor Zoom) - 48mm",
+          "short_name": "ISZ 48mm",
+          "description": "In sensor zoom 48mm for the 1x wide lens.",
+          "sensor_mode_value": 22,
+          "lens": "24mm"
+        },
+        {
+          "id": "isz_148mm_waffle",
+          "name": "ISZ (In Sensor Zoom) - 148mm",
+          "short_name": "ISZ 148mm",
+          "description": "In sensor zoom 148mm for the 3x tele lens.",
+          "sensor_mode_value": 20,
+          "lens": "74mm"
+        },
+        {
+          "id": "isz_qb_48mm_waffle",
+          "name": "ISZ (In Sensor Zoom) No Remosaic - 48mm",
+          "short_name": "ISZ QB 48mm",
+          "description": "In sensor zoom 48mm for the 1x wide lens without remosaic.",
+          "sensor_mode_value": 27,
+          "lens": "24mm"
+        },
+        {
+          "id": "isz_qb_148mm_waffle",
+          "name": "ISZ (In Sensor Zoom) No Remosaic - 148mm",
+          "short_name": "ISZ QB 148mm",
+          "description": "In sensor zoom 148mm for the 3x telephoto lens without remosaic.",
+          "sensor_mode_value": 11,
+          "lens": "74mm"
+        },
+        {
+          "id": "hfr_480fps_waffle",
+          "name": "480FPS Mode - 24mm",
+          "short_name": "480FPS",
+          "description": "Enables 480 frames per second recording on the 24mm main lens.",
+          "sensor_mode_value": 6,
+          "lens": "24mm"
+        },
+        {
+          "id": "hfr_aux_240fps_waffle",
+          "name": "240FPS Mode - 15mm & 74mm",
+          "short_name": "AUX 240FPS",
+          "description": "Enables 240 frames per second recording on both the 15mm ultrawide lens and 74mm telephoto lens.",
+          "sensor_mode_value": 9,
+          "lens": "15mm & 74mm"
+        },
+        {
+          "id": "hfr_aux_480fps_waffle",
+          "name": "480FPS Mode - 15mm & 74mm",
+          "short_name": "AUX 480FPS",
+          "description": "Enables 480 frames per second recording on both the 15mm ultrawide lens and 74mm telephoto lens.",
+          "sensor_mode_value": 10,
+          "lens": "15mm & 74mm"
         }
       ]
     }
