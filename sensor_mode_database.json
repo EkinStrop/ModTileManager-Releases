@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-10",
   "devices": [
     {
       "codename": "nezha",
@@ -11,18 +11,26 @@
       ],
       "sensor_modes": [
         {
-          "id": "dcg_24mm_nezha",
-          "name": "DCG (Dual Conversion Gain) - 24mm",
-          "short_name": "DCG - 24mm",
-          "description": "Enables Dual Conversion Gain on the 24mm main lens for improved dynamic range in low light.",
+          "id": "dag_front_22mm_nezha",
+          "name": "DAG (Dual Analog Gain) - Front Camera",
+          "short_name": "DAG Front",
+          "description": "Enables Dual Analog Gain on the 22mm front camera for improved dynamic range in low light.",
+          "sensor_mode_value": 3,
+          "lens": "22mm"
+        },
+        {
+          "id": "dag_24mm_nezha",
+          "name": "DAG (Dual Analog Gain) - 24mm",
+          "short_name": "DAG - 24mm",
+          "description": "Enables Dual Analog Gain on the 24mm main lens for improved dynamic range in low light.",
           "sensor_mode_value": 4,
           "lens": "24mm"
         },
         {
-          "id": "dcg_78mm_nezha",
-          "name": "DCG (Dual Conversion Gain) - 78mm",
-          "short_name": "DCG - 78mm",
-          "description": "Enables Dual Conversion Gain on the 78mm telephoto lens for improved dynamic range in low light.",
+          "id": "dag_78mm_nezha",
+          "name": "DAG (Dual Analog Gain) - 78mm",
+          "short_name": "DAG - 78mm",
+          "description": "Enables Dual Analog Gain on the 78mm telephoto lens for improved dynamic range in low light.",
           "sensor_mode_value": 6,
           "lens": "78mm"
         },
@@ -33,6 +41,22 @@
           "description": "In sensor zoom 48mm for the 1x wide lens.",
           "sensor_mode_value": 3,
           "lens": "24mm"
+        },
+        {
+          "id": "isz_150mm_nezha",
+          "name": "ISZ (In Sensor Zoom) - 150mm",
+          "short_name": "ISZ HPE9 150mm",
+          "description": "2x in sensor zoom for the 75mm HPE9 telephoto lens.",
+          "sensor_mode_value": 9,
+          "lens": "75mm HPE9"
+        },
+        {
+          "id": "isz_300mm_nezha",
+          "name": "ISZ (In Sensor Zoom) - 300mm",
+          "short_name": "ISZ HPE9 300mm",
+          "description": "4x in sensor zoom for the 75mm HPE9 telephoto lens.",
+          "sensor_mode_value": 10,
+          "lens": "75mm HPE9"
         },
         {
           "id": "hfr_120fps_nezha",
