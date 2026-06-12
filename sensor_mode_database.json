@@ -19,18 +19,18 @@
           "lens": "22mm"
         },
         {
-          "id": "dag_24mm_nezha",
-          "name": "DAG (Dual Analog Gain) - 24mm",
-          "short_name": "DAG - 24mm",
-          "description": "Enables Dual Analog Gain on the 24mm main lens for improved dynamic range in low light.",
+          "id": "dcg_24mm_nezha",
+          "name": "DCG (Dual Conversion Gain) - 24mm",
+          "short_name": "DCG - 24mm",
+          "description": "Enables Dual Conversion Gain on the 24mm main lens for improved dynamic range in low light.",
           "sensor_mode_value": 4,
           "lens": "24mm"
         },
         {
-          "id": "dag_78mm_nezha",
-          "name": "DAG (Dual Analog Gain) - 78mm",
-          "short_name": "DAG - 78mm",
-          "description": "Enables Dual Analog Gain on the 78mm telephoto lens for improved dynamic range in low light.",
+          "id": "dcg_78mm_nezha",
+          "name": "DCG (Dual Conversion Gain) - 78mm",
+          "short_name": "DCG - 78mm",
+          "description": "Enables Dual Conversion Gain on the 78mm telephoto lens for improved dynamic range in low light.",
           "sensor_mode_value": 6,
           "lens": "78mm"
         },
