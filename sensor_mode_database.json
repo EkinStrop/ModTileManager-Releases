@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-07-07",
   "devices": [
     {
       "codename": "nezha",
@@ -27,12 +27,30 @@
           "lens": "24mm"
         },
         {
+          "id": "dcg_2560p_60fps_24mm_nezha",
+          "name": "DCG (Dual Conversion Gain) 2560p 60FPS - 24mm",
+          "short_name": "DCG 2560p 60FPS - 24mm",
+          "description": "Enables Dual Conversion Gain on the 24mm main lens at 4096x2560 resolution with 60 frames per second recording.",
+          "sensor_mode_value": 26,
+          "lens": "24mm",
+          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams."
+        },
+        {
           "id": "dcg_78mm_nezha",
           "name": "DCG (Dual Conversion Gain) - 78mm",
           "short_name": "DCG - 78mm",
           "description": "Enables Dual Conversion Gain on the 78mm telephoto lens for improved dynamic range in low light.",
           "sensor_mode_value": 6,
           "lens": "78mm"
+        },
+        {
+          "id": "dcg_2560p_60fps_75mm_nezha",
+          "name": "DCG (Dual Conversion Gain) 2560p 60FPS - 75mm",
+          "short_name": "DCG 2560p 60FPS - 75mm",
+          "description": "Enables Dual Conversion Gain on the 75mm telephoto lens at 4080x2560 resolution with 60 frames per second recording.",
+          "sensor_mode_value": 28,
+          "lens": "75mm",
+          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams."
         },
         {
           "id": "isz_48mm_nezha",
