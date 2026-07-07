@@ -33,7 +33,7 @@
           "description": "Enables Dual Conversion Gain on the 24mm main lens at 4096x2560 resolution with 60 frames per second recording.",
           "sensor_mode_value": 26,
           "lens": "24mm",
-          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams. You can set it in Direct Props withing ModTileManager."
+          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams. You can set it in Direct Props within ModTileManager."
         },
         {
           "id": "dcg_75mm_nezha",
@@ -50,7 +50,7 @@
           "description": "Enables Dual Conversion Gain on the 75mm telephoto lens at 4080x2560 resolution with 60 frames per second recording.",
           "sensor_mode_value": 28,
           "lens": "75mm",
-          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams. You can set it in Direct Props withing ModTileManager."
+          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams. You can set it in Direct Props within ModTileManager."
         },
         {
           "id": "isz_48mm_nezha",
