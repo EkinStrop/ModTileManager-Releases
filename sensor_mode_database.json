@@ -36,7 +36,7 @@
           "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams. You can set it in Direct Props withing ModTileManager."
         },
         {
-          "id": "dcg_78mm_nezha",
+          "id": "dcg_75mm_nezha",
           "name": "DCG (Dual Conversion Gain) - 75mm",
           "short_name": "DCG - 75mm",
           "description": "Enables Dual Conversion Gain on the 75mm telephoto lens for improved dynamic range in low light.",
