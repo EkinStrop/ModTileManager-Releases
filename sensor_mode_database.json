@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-13",
   "devices": [
     {
       "codename": "nezha",
@@ -33,7 +33,7 @@
           "description": "Enables Dual Conversion Gain on the 24mm main lens at 4096x2560 resolution with 60 frames per second recording.",
           "sensor_mode_value": 26,
           "lens": "24mm",
-          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams. You can set it in Direct Props within ModTileManager."
+          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams.\nYou can set it in Direct Props within ModTileManager."
         },
         {
           "id": "dcg_75mm_nezha",
@@ -50,7 +50,7 @@
           "description": "Enables Dual Conversion Gain on the 75mm telephoto lens at 4080x2560 resolution with 60 frames per second recording.",
           "sensor_mode_value": 28,
           "lens": "75mm",
-          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams. You can set it in Direct Props within ModTileManager."
+          "note": "Requires persist.vendor.camera.maxRAWSizes=55 to expose more hidden RAW streams.\nYou can set it in Direct Props within ModTileManager."
         },
         {
           "id": "isz_48mm_nezha",
@@ -195,6 +195,38 @@
           "description": "Enables 480 frames per second recording on both the 15mm ultrawide lens and 74mm telephoto lens.",
           "sensor_mode_value": 10,
           "lens": "15mm & 74mm"
+        }
+      ]
+    },
+    {
+      "codename": "husky",
+      "marketing_names": [
+        "Google Pixel 8 Pro"
+      ],
+      "sensor_modes": [
+        {
+          "id": "dcg_4k_60fps_25mm_husky",
+          "name": "DCG (Dual Conversion Gain) 4K 60FPS - 25mm",
+          "short_name": "DCG 4K 60FPS",
+          "description": "Enables Dual Conversion Gain on the 25mm main lens on 4080x2288 stream for up to 60fps, for improved dynamic range in low light.",
+          "sensor_mode_value": 11,
+          "lens": "24mm"
+        },
+        {
+          "id": "dcg_4k_30fps_25mm_husky",
+          "name": "DCG (Dual Conversion Gain) 4K 30FPS - 25mm",
+          "short_name": "DCG 4K 30FPS",
+          "description": "Enables Dual Conversion Gain on the 25mm main lens at 4K up to 60fps.",
+          "sensor_mode_value": 10,
+          "lens": "25mm"
+        },
+        {
+          "id": "dcg_1080p_60fps_binned_25mm_husky",
+          "name": "DCG (Dual Conversion Gain) 1080P 60FPS Binned - 25mm",
+          "short_name": "DCG 1080P 60FPS",
+          "description": "Enables Dual Conversion Gain on the 25mm main lene on 2016x1136 stream.",
+          "sensor_mode_value": 12,
+          "lens": "25mm"
         }
       ]
     }
