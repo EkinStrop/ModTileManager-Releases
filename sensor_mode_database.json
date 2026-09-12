@@ -64,16 +64,8 @@
           "id": "isz_150mm_nezha",
           "name": "ISZ (In Sensor Zoom) - 150mm",
           "short_name": "ISZ HPE9 150mm",
-          "description": "2x in sensor zoom for the 75mm HPE9 telephoto lens.",
+          "description": "2x in sensor zoom for the 75mm HPE9 telephoto lens. Requires remosacing (pink like output)",
           "sensor_mode_value": 9,
-          "lens": "75mm HPE9"
-        },
-        {
-          "id": "isz_300mm_nezha",
-          "name": "ISZ (In Sensor Zoom) - 300mm",
-          "short_name": "ISZ HPE9 300mm",
-          "description": "4x in sensor zoom for the 75mm HPE9 telephoto lens.",
-          "sensor_mode_value": 10,
           "lens": "75mm HPE9"
         },
         {
